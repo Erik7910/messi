@@ -1,0 +1,188 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+    color: #e5e7eb;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:#888888;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.intro{
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-end-end-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.intro-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-align: center;
+    padding-bottom: 16px;
+
+}
+.intro-left
+{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 8px;
+}
+.introimg{
+    width: 35vw;
+    min-width: auto;
+    
+}
+.intro-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    padding: 32px 0px;
+
+}
+.card{
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    inline-size: 50%;
+    overflow-wrap: break-word;
+    padding: 16px 8px;
+    width: 45%;
+}
+.sign-up-button-top{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 5px;
+    border: #3882f6 1px solid;
+    padding: 4px 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #34465d;
+    border: 1px solid blue;
+    transition: 0.5s;
+    color:white;
+}
+.info{
+    display: block;
+    padding: 32px;
+}
+.info-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+.trophy-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 0px 32px;
+}
+.champions-trophy,.ballon-d-or,.la-liga-trophy,.europa-trophy{
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ballon-text,.champions-text,.liga-text,.europa-text{
+    padding-top: 24px;
+}
+.ballon-dor-img,.champions-trophy-img,.liga-trophy-img,.europa-cup-img{
+    width: 10em;
+    height: 10em;
+    border-radius: 1.5em;
+}
+
+.quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    flex-direction: column;
+    margin: 0 20vw;
+}
+.quote{
+    font-style: italic;
+    width: 40vw;
+    padding: 32px;
+    margin: 24px;
+    border: 1px solid grey;
+    border-radius: 1.5em;
+    box-shadow: 5px 10px #888888;
+    flex-wrap: wrap;
+}
+.quote-author{
+    padding: 12px;
+    font-weight: bold;
+    font-style: italic ;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    background-color: #3882f6;
+    border-radius: 1em;
+    margin: 30px 30% ;
+    font-weight: 200;
+    color: white;
+}
+
+.sign-up-body{
+    padding: 12px;
+}
+.sign-up-button-end{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 5px;
+    border: #eee 1px solid;
+    padding: 4px 10px;
+    margin-top: 12px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    padding: 32px 0px;
+    background-color: maroon;
+    font-size: large;
+    color: white;
+}
