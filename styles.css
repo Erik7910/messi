@@ -39,6 +39,9 @@ a:hover{
     img.introimg{
         display: none;
     }
+    .intro-right{
+        display: none !important;
+    }
 }
 .intro{
     background-color: #1f2937;
@@ -88,7 +91,7 @@ a:hover{
     inline-size: 50%;
     overflow-wrap: break-word;
     padding: 16px 8px;
-    width: 45%;
+    width: 45vw;
 }
 .sign-up-button-top{
     background-color: #3882f6;
